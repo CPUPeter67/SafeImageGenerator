@@ -36,7 +36,7 @@ def is_prompt_safe(prompt: str) -> bool:
 
     forbidden_keywords = [
 
-        "violence", "weapon", "gun", "nudity", "drugs", "hate", "racism", "terrorism", "genocide", "homicide", "suicide", "self-harm", "abuse", "exploitation", "rape", "murder", "assault", "bomb", "explosive", "arson",
+        "violence", "weapon", "gun", "nudity", "drugs", "hate", "racism", "terrorism", "genocide", "homicide", "suicide", "self-harm", "abuse", "exploitation", "murder", "assault", "bomb", "explosive", "arson",
 
         "kidnapping", "human trafficking", "child abuse","animal cruelty", "poaching", "stalking", "harassment", "bullying", "cyberbullying", "fraud", "scam", "theft", "robbery", "burglary","rape", "sex", "porn", "prostitution"
     
